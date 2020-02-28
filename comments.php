@@ -99,11 +99,11 @@ $comments->alt(' comment-odd', ' comment-even');
             <?php else: ?>
     		<input type="text" name="author" id="author" class="text" placeholder="称呼" value="<?php $this->remember('author'); ?>">
     		
-    		<?php if ($this->options->commentsRequireMail): ?>
+    		<?php if ($this->options->commentsRequireMail || true): ?>
     	    <input type="email" name="mail" id="mail" class="text" placeholder="Email" value="<?php $this->remember('mail'); ?>">
     	    <?php endif; ?>
     	    
-    	    <?php if ($this->options->commentsRequireURL): ?>
+    	    <?php if ($this->options->commentsRequireURL || true): ?>
     		<input type="url" name="url" id="url" class="text" placeholder="http://" value="<?php $this->remember('url'); ?>">
     		<?php endif; ?>
     		

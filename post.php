@@ -115,7 +115,7 @@ $this->need('layout/_partial/head.php');
 
 <script src="<?php echo $this->options->highlight_js ?>"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
+<?php $this->need('source/js/anchor.js'); ?>
 </body>
 
 </html>
