@@ -14,4 +14,9 @@
         <link rel="stylesheet" href="<?php $this->options->themeUrl('source/css/style.css'); ?>">
         <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
         <?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
+        <!-- require APlayer -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+        <!-- require MetingJS -->
+        <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     </head>
