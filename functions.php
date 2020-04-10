@@ -121,7 +121,7 @@ function getCatalog() {
             }
             $entities = array('%21', '%2A', '%27', '%28', '%29');
             $replacements = array('!', '*', "'", "(", ")");
-            $index .= '<li><a href="#'. str_replace($entities, $replacements, urlencode($catalog_item['text'])) .'">' . $catalog_item['text'] . '</a>';
+            $index .= '<li><a href="#'. str_replace($entities, $replacements, rawurlencode($catalog_item['text'])) .'">' . $catalog_item['text'] . '</a>';
             $prev_depth = $catalog_item['depth'];
         }
         for ($i = 0; $i <= $to_depth; $i++) {
