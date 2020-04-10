@@ -25,7 +25,7 @@ https://docs.nexmoe.com/contribution
 
 - [安和Blog](https://lolicorn.com)
 - [奈西萌](https://i.nexmoe.com)
-- [Leohearts](https://ytoworld.tk) (Best with dark mode)
+- [Leohearts](https://ytoworld.tk)
 
 欢迎将你的网站提交到这里来
 
