@@ -20,4 +20,5 @@
         <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
         <!-- require MetingJS -->
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pace-progress@1.0.2/pace.min.js"></script>
     </head>
