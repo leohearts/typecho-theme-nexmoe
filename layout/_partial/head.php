@@ -20,6 +20,6 @@
         <!-- require MetingJS -->
         <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
         <?php if (!empty($this->options->function) && in_array('LinkinNewtab', $this->options->function)){
-            echo '<script>var res = document.querySelectorAll("a");for (var i=0;i<res.length;i++){  if(res[i].href.search(document.querySelectorAll("a")[2].href)){    res[i].target="_blank";  }}</script>';
+            echo '<script>(function(){var res = document.querySelectorAll("a");for (var i=0;i<res.length;i++){  if(res[i].href.search(document.querySelectorAll("a")[2].href)){    res[i].target="_blank";  }}})();</script>';
         } ?>
     </head>
