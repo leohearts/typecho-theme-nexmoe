@@ -43,8 +43,9 @@ function themeConfig($form) {
     $function = new Typecho_Widget_Helper_Form_Element_Checkbox('function',
         array('fancybox' => '灯箱功能',
             'SmoothScroll' => '平滑滚动',
-            'enableMathjax' => '全局启用Mathjax'),
-        array('fancybox', 'SmoothScroll'), '功能开关');
+            'enableMathjax' => '全局启用Mathjax',
+            'LinkinNewtab' => '在新标签页打开外链'),
+        array('fancybox', 'SmoothScroll', 'LinkinNewtab'), '功能开关');
     $form->addInput($function->multiMode());
 
     $mdui_css = new Typecho_Widget_Helper_Form_Element_Text('mdui_css',NULL,'https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css','CDN > mdui > CSS',NULL);
