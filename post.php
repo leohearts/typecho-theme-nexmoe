@@ -72,9 +72,9 @@ $this->need('layout/_partial/head.php');
         <div class="nexmoe-post">
             <div class="nexmoe-post-cover mdui-ripple">
                 <?php if ($this->fields->Cover){ ?>
-                    <img src="<?php echo $this->fields->Cover ?>">
+                    <img alt="cover" src="<?php echo $this->fields->Cover ?>">
                 <?php }  else{ ?>
-                    <img src="<?php echo $this->options->background ?>">
+                    <img alt="cover" src="<?php echo $this->options->background ?>">
                 <?php } ?>
                 <h1><?php $this->title() ?></h1>
             </div>

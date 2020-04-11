@@ -1,7 +1,7 @@
 <div class="nexmoe-drawer mdui-drawer" id="drawer">
     <div class="nexmoe-avatar mdui-ripple">
         <a href="<?php $this->options->siteUrl(); ?>">
-            <img src="<?php $this->options->logoUrl();?>">
+            <img alt="icon" src="<?php $this->options->logoUrl();?>">
         </a>
     </div>
     <div class="nexmoe-count">
