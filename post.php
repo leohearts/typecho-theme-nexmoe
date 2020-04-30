@@ -61,6 +61,13 @@ $this->need('layout/_partial/head.php');
 </style>
         <link rel="stylesheet" href="<?php echo $this->options->highlight_css ?>">
         <link rel="stylesheet" href="<?php echo $this->options->fancybox_css ?>">
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if (document.getElementsByClassName("nexmoe-toc")[0].firstElementChild.childElementCount == 0) {
+            document.getElementsByClassName("nexmoe-toc")[0].style.display = "none";
+        }
+    });
+</script>
 <body class="mdui-drawer-body-left">
       <?php $this->need('layout/_partial/background.php'); ?>
   <div id="nexmoe-header">
