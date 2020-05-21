@@ -52,7 +52,7 @@ $comments->alt(' comment-odd', ' comment-even');
         ?>
         <div class="comment-view">
             <div class="comment-header">
-                <a href="<?php echo $comments->url; ?>"target="_blank" rel="external nofollow"><img class="avatar" src="<?php echo $avatar ?>"></a>
+                <a href="<?php echo $comments->url; ?>"target="_blank" rel="external nofollow"><img alt="avatar" class="avatar" src="<?php echo $avatar ?>"></a>
             </div>
             <div class="comment-content">
                 <div class="comment-meta">
