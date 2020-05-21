@@ -6,7 +6,7 @@
             </a>
             <div class="mdui-toolbar-spacer"></div>
             <a href="<?php $this->options->siteUrl(); ?>" title="<?php $this->options->title(); ?>" class="mdui-btn mdui-btn-icon">
-                <img src="<?php $this->options->logoUrl();?>">
+                <img alt="logo" src="<?php $this->options->logoUrl();?>">
             </a>
         </div>
     </div>
